@@ -1,22 +1,23 @@
 # WASTE
 
-> A minimal pastebin with a design shamelessly copied from [bin](https://github.com/WantGuns/bin).
+> **A custom component for Home Assistant that retrieves waste collection schedules from a wide range of service providers.**
 
-**Category:** WASTE_MANAGEMENT · **Ecosystem:** unknown · **Vendored upstream:** https://github.com/Richienb/ros-data-waster · **Pinned commit:** `0aeed8891184d496b0b6e714264af7fa970d4a63` · **Vendor:** Anticloud FZ LLE
-
-> **Note:** this package vendors `https://github.com/Richienb/ros-data-waster` as the implementation for the `WASTE` slot. The vendored repository name differs from the package name; the pin above is the exact commit vendored here.
+**Category:** WASTE_MANAGEMENT · **Ecosystem:** unknown · **Vendored upstream:** https://github.com/mampfes/hacs_waste_collection_schedule · **Pinned commit:** `7103ec4959c9011751cb0aeb38db3b87082e4c6f` · **Vendor:** Anticloud FZ LLE
 
 ## What This Project Is
 
-A minimal pastebin with a design shamelessly copied from [bin](https://github.com/WantGuns/bin).
+**A custom component for Home Assistant that retrieves waste collection schedules from a wide range of service providers.**
 
 This is the upstream project, vendored at the pinned commit above and packaged offline-first. The 12 improvements Anticloud adds live in `anticloud/` and are described under *Anticloud Overlay* below. Every fact in this file traces to a file in this directory.
 
 ## Installation
 
-```
-# See the upstream README (linked above) for build steps.
-```
+![hacs badge](https://img.shields.io/badge/HACS-Default-orange)
+![hacs installs](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Flauwbier.nl%2Fhacs%2Fwaste_collection_schedule)
+
+[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=mampfes&repository=hacs_waste_collection_schedule&category=integration)
+
+Waste Collection Schedule can be installed via [HACS](https://hacs.xyz/), or by manually copying the [`waste_collection_schedule`](https://github.com/mampfes/hacs_waste_collection_schedule/tree/master/custom_components) directory to Home Assistant's `config/custom_components/` directory.
 
 ## Usage
 
@@ -62,7 +63,7 @@ The upstream licence is preserved in `LICENSE` and `THIRD_PARTY_LICENSES/`. The 
 SHA3-256 of `BENCH.json`:
 
 ```
-9a4d61c2fb9ae0841ae30d1020429a51afe80e9e7611a70e85e5a3b9d49a0123
+fc51094511e3414800ec0d7599da4b89b0ba2b72e20639c146ea6c8d5ae37231
 ```
 
 Recompute the hash above and compare — any drift means the package has been tampered with and the seal is invalid. This is a self-assessment; no external audit has been performed and a SOC 2 / NIST independent audit is committed post-funding.

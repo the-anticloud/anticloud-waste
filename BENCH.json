@@ -540,10 +540,10 @@
  "version": "1.0.0",
  "source": {
   "git": {
-   "head": "0aeed8891184d496b0b6e714264af7fa970d4a63",
-   "url": "https://github.com/Richienb/ros-data-waster",
-   "branch": "master",
-   "sha_verified_from": "GitHub API commits/master"
+   "url": "https://github.com/mampfes/hacs_waste_collection_schedule",
+   "head": "7103ec4959c9011751cb0aeb38db3b87082e4c6f",
+   "sha_verified_from": "revendor 2026-10-15: GitHub API commit lookup",
+   "previous_substitute": "https://github.com/Richienb/ros-data-waster"
   }
  }
 }
